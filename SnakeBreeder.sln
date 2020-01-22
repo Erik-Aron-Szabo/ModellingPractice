@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PA-Test", "PA-Test\PA-Test.csproj", "{03A21B7C-80EB-4EC2-8C18-E9EE0346D0EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snake", "Snake", "{23EB9F59-0C04-41C6-9359-041163FE1971}"
+	ProjectSection(SolutionItems) = preProject
+		PA-Test\Snake.cs = PA-Test\Snake.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Species", "Species", "{DDDBF292-627E-43A7-9351-4282EF78AA73}"
+	ProjectSection(SolutionItems) = preProject
+		PA-Test\Anakonda.cs = PA-Test\Anakonda.cs
+		PA-Test\Cornsnake.cs = PA-Test\Cornsnake.cs
+		PA-Test\Kingsnake.cs = PA-Test\Kingsnake.cs
+		PA-Test\Rattlesnake.cs = PA-Test\Rattlesnake.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Housing", "Housing", "{6DCBF4CA-1811-4E81-AC6C-0186A8FFBDD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Terrarium", "Terrarium", "{4627C547-325D-4146-A3ED-E1265A480CFD}"
+	ProjectSection(SolutionItems) = preProject
+		PA-Test\Terrarium.cs = PA-Test\Terrarium.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Food", "Food", "{6E0C7EA4-F784-4C18-854D-64D54A7ED992}"
+	ProjectSection(SolutionItems) = preProject
+		PA-Test\Food.cs = PA-Test\Food.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Types", "Types", "{6AB5AE34-659E-4CFC-B63B-05F43DCD08A8}"
+	ProjectSection(SolutionItems) = preProject
+		PA-Test\Bird.cs = PA-Test\Bird.cs
+		PA-Test\Carrot.cs = PA-Test\Carrot.cs
+		PA-Test\Mouse.cs = PA-Test\Mouse.cs
+		PA-Test\Rat.cs = PA-Test\Rat.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A21B7C-80EB-4EC2-8C18-E9EE0346D0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A21B7C-80EB-4EC2-8C18-E9EE0346D0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A21B7C-80EB-4EC2-8C18-E9EE0346D0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A21B7C-80EB-4EC2-8C18-E9EE0346D0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDDBF292-627E-43A7-9351-4282EF78AA73} = {23EB9F59-0C04-41C6-9359-041163FE1971}
+		{4627C547-325D-4146-A3ED-E1265A480CFD} = {6DCBF4CA-1811-4E81-AC6C-0186A8FFBDD5}
+		{6E0C7EA4-F784-4C18-854D-64D54A7ED992} = {6DCBF4CA-1811-4E81-AC6C-0186A8FFBDD5}
+		{6AB5AE34-659E-4CFC-B63B-05F43DCD08A8} = {6E0C7EA4-F784-4C18-854D-64D54A7ED992}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90875048-8E0A-4C8D-8074-0739B17BCADE}
+	EndGlobalSection
+EndGlobal
